@@ -40,9 +40,9 @@ dependencies = [
 sgpt = "sgpt:cli"
 
 [project.urls]
-homepage = "https://github.com/ther1d/shell_gpt"
-repository = "https://github.com/ther1d/shell_gpt"
-documentation = "https://github.com/TheR1D/shell_gpt/blob/main/README.md"
+homepage = "https://github.com/threatcode/shell_gpt"
+repository = "https://github.com/threatcode/shell_gpt"
+documentation = "https://github.com/ThreatCode/shell_gpt/blob/main/README.md"
 
 [project.optional-dependencies]
 test = [
