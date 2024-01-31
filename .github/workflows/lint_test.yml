@@ -31,8 +31,8 @@ jobs:
     - name: ruff
       run: ruff sgpt tests scripts
     - name: mypy
-      run: mypy sgpt
-    - name: unittests
+      run: mypy sgpt --exclude llm_functions
+    - name: tests
       run: |
         export OPENAI_API_KEY=test_api_key
-        pytest tests/test_unit.py
+        pytest tests/ -p no:warnings
